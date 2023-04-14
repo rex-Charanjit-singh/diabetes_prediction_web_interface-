@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Edited on 14/04/2023
 
-This is a temporary script file.
+by CHARANJIT SINGH 
 """
 
 import numpy as np
@@ -11,7 +11,7 @@ import streamlit as st
 
 #loading the saved models
 
-diabetes_model = pickle.load(open(r'C:\Users\Rishi singh\Downloads\diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
 
 st.title('Diabetes Prediction using ML')
